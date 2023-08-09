@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .blue {
+                color: blue;
+            }
+            .red {
+                color: red;
+            }
+            p {
+                color: green;
+            }
+            #orange {
+                color: orange;
+            }
+            p.black {
+                color:black;
+            }
+            div.black {
+                color: yellow;
+            }
+            article > h1 {
+                font-size: 1em;
+                color: green;
+            }
+            article > div > h1 {
+                font-size: 1em;
+                color: purple;
+            }
+            article h2 {
+                font-size: 1em;
+                color: grey;
+            }
+        </style>
+        <title>
+            MyMainPage
+        </title>
+    </head>
+    <body>
+        <p>This should be greem</p>
+        <p class="blue">This should be blue</p>
+        <div class="red">This should be red</div>
+        <div class="blue" id="orange">This should be orange</div>
+        <p class="black">This should be black</p>
+        <div class="black"> This should be yellow</div>
+        <article>
+            <h1>This should be green</h1>
+            <div>
+                <h1>This should be purple</h1>
+                <h2>This should be grey</h2>
+            </div>
+        </article>
+    </body>
+</html>
