@@ -2,17 +2,62 @@
 <html>
     <head>
         <style>
-
+            div.link > ul > li {
+                list-style: none;
+            }
+            a:link, a:visited {
+                text-decoration: none;
+                background-color: green;
+                border: 1px solid blue;
+                color: black;
+                display: block;
+                width: 120px;
+                text-align: center;
+                margin-bottom: 1px;
+            }
+            a:hover {
+                background-color: red;
+                color: purple;
+            }
+            a:active {
+                background-color: black;
+                color: black;
+            }
+            div.link > ul > li:nth-child(2) {
+                font-size: 20px;
+            }
+            body > section div:nth-child(odd) {
+                background-color: black;
+                color: white;
+                width: 100px;
+            }
+            body > section div:nth-child(4):hover {
+                background-color: green;
+                width: 100px;
+                cursor: pointer;
+            }
         </style>
+        <title>PseudoSelector</title>
     </head>
     <body>
         <div class="link">
             Link list:
             <ul>
                 <li><a href="Selector" target="_blank">Selector</a></li>
-                <li></li>
-                <li></li>
+                <li><a href="SolarSystem" target="_blank">Solar System</a></li>
             </ul>
         </div>
+        <section>
+            <div>DIV 1</div>
+            <div>DIV 2</div>
+            <div>DIV 3</div>
+            <div>DIV 4</div>
+            <div>DIV 5</div>
+            <div>DIV 6</div>
+            <div>DIV 7</div>
+            <div>DIV 8</div>
+            <div>DIV 9</div>
+            <div>DIV 10</div>
+        </section>
     </body>
 </html>
