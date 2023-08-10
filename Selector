@@ -32,6 +32,9 @@
                 font-size: 1em;
                 color: grey;
             }
+            h3.blue.black {
+                color: green;
+            }
         </style>
         <title>
             MyMainPage
@@ -51,5 +54,6 @@
                 <h2>This should be grey</h2>
             </div>
         </article>
+        <h3 class="blue black">This should be green</h3>
     </body>
 </html>
