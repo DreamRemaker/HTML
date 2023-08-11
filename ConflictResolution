@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                color: purple;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            p {
+                font: 1em;
+                color: green;
+                background-color: black;
+                width: 120px;
+                text-align: center;
+            }
+            p {
+                color: white;
+            }
+            h1 {
+                font-size: 1.5em !important;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hello</p>
+        <p style="color: yellow;">My name is Duy</p>
+        <div style="font-size: 1.5em;">Below is the specificity score:</div>
+        <img src="Picture\SpecificityScore.png" style="width:400px;height:200px;" alt="Score">
+        <h1>This is very important</h1>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .style {
+                font-family:'Times New Roman', Times, serif;
+                color: #0000ff;
+                font-style: italic;
+                font-weight: bolder;
+                font-size: 24px;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="style">This is how you style your text</p>
+        <div>
+            Regular
+        </div>
+        <div style="font-size: 2em;">
+            2em
+            <div style="font-size: 2em;">
+                4em
+                <div style="font-size: 0.5em;">
+                    2em again
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
